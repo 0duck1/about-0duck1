@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-header: 'Obitron', "Rajdhani", sans-serif;
+    --font-subheader: "Rajdhani", sans-serif;
+    --font-body: "JetBrains Mono", monospace;
+    --bg-dark: #0D1B2A;
+    --card-bg: #1B2A4A;
+    --primary-accent: #9D4EDD;
+    --secondary-accent: #4EA8DE;
+    --text-main: #E0E1DD;
+    --text-muted: #778DA9;
+}
+
+html{
+    background-color: var(--bg-dark);
+    display: flex;
+}
+
+h1{
+    font-family: var(--font-header);
+    color: var(--primary-accent);
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.nav-button {
+    background-color: var(--primary-accent);
+    max-width: 100%;
+    height: 3em;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-button:hover {
+    background-color: var(--secondary-accent);
+}
+
+h1:hover{
+    background-color: var(--secondary-accent);
+}
+
+h2 {
+    font-family: var(--font-header);
+    color: var(--primary-accent);
+    text-align: center;
+    font-family: var(--font-subheader);
+}
+
+a, p{
+    font-family: var(--font-body);
+    color: var(--text-main)
+}
+
+.all-cards{
+    gap: 20px;
+    display: flex;
+}
+
+.card-link{
+    text-decoration: none;
+    color: var(--card-bg);
+    flex: 1;
+    display: flex;
+
+}
+
+.nav-div {
+    display: flex;
+    gap: 20px;
+    background-color: var(--card-bg);
+    padding: 10px;
+    border-radius: 12px;
+    justify-content: center;
+}
+.nav-link {
+    flex: 1;
+}
+
+.image-div {
+    background-color: var(--card-bg);
+    display: flex;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.img-logo {
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.about-sections {
+    background-color: var(--card-bg);
+    width: 100%;
+    border-radius: 12px;
+    height: 35vh;
+    margin-bottom: 30px;
+}
+
+p.main-text {
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+
+.about-sections:hover {
+    background-color: var(--secondary-accent);
+} 
+
+.main-text {
+    text-align: center;
+}
+
+.img-contain {
+    height: 50%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.abt-img {
+    max-height:100%;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
