@@ -18,6 +18,10 @@ html{
     place-items: center;
 }
 
+body{
+    justify-content: center;
+}
+
 h1{
     font-family: var(--font-header);
     color: var(--primary-accent);
@@ -39,7 +43,6 @@ h1{
 .nav-button:hover {
     background-color: var(--secondary-accent);
 }
-
 h1:hover{
     background-color: var(--secondary-accent);
 }
@@ -118,6 +121,9 @@ p.main-text {
 .about-sections:hover {
     background-color: var(--secondary-accent);
 } 
+#none:hover{
+    background: var(--card-bg);
+}
 
 .main-text {
     text-align: center;
